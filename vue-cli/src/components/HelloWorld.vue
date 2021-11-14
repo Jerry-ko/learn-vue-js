@@ -31,11 +31,13 @@
 </template>
 
 <script>
+var appContent = {
+  props: ['propsdata']
+}
 export default {
+  // 인스턴스 옵션 속성
   name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  props: ['msg']
 }
 </script>
 
